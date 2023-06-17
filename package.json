@@ -1,0 +1,22 @@
+{
+	"name": "sask-wbsite",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start-frontend": "cd frontend && npm install && npm start",
+		"start-backend": "cd backend && npm install && node app.js",
+        "build-frontend": "cd frontend && npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SAS-Kenya/sask-website.git"
+	},
+	"author": "Robby",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SAS-Kenya/sask-website.git"
+	},
+	"homepage": "https://github.com/SAS-Kenya/sask-website.git#readme"
+}
